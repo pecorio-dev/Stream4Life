@@ -34,7 +34,7 @@ Stream4Life was born out of my love for movies, series, and technology. As a sol
 
 ## Tech Stack
 
-- **Languages**: Kotlin, Java
+- **Languages**: Kotlin
 - **Frontend**: Android XML layouts, Material Design Components
 - **Backend**: Room Database for local storage
 - **Libraries**:
@@ -91,7 +91,7 @@ Please ensure your code follows the project's coding style and includes appropri
 ## Contact
 
 Feel free to reach out with feedback, suggestions, or questions:
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
-- **Email**: [Your Email or a Contact Form Link]
+- **GitHub**: [pecorio-dev](https://github.com/pecorio-dev)
+- **Email**: [Ystream2free.pecorio@gmail.com]
 
 Give **Stream4Life** a try, and let me know how it enhances your media tracking experience! ⭐
