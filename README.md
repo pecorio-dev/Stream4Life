@@ -1,97 +1,94 @@
-# Stream4Life
+# Stream4Life - Canevas du Projet
 
-![Stream4Life Home Screen](1.png)
+![Écran d'accueil de Stream4Life](1.png)
 
-## Overview
+## 1. Proposition de valeur
+**Stream4Life** est une application Android intuitive qui simplifie la gestion de vos films et séries préférés, offrant une expérience personnalisée et moderne pour les amateurs de médias.
 
-**Stream4Life** is a passion-driven Android application designed to provide users with a seamless and personalized experience for managing their favorite movies and TV series. Built from the ground up by a 17-year-old solo developer, this project showcases a blend of creativity, technical skill, and dedication to crafting a user-friendly platform for media enthusiasts. Whether you're tracking your watchlist, toggling watched statuses, or exploring new content, Stream4Life aims to make your media journey effortless and enjoyable.
+- **Objectif** : Faciliter le suivi des listes de visionnage avec une interface fluide et des fonctionnalités personnalisables.
+- **Pour qui** : Cinéphiles, spectateurs occasionnels, utilisateurs Android.
+- **Avantages** : Gestion simplifiée, notifications personnalisées, design moderne.
 
-This project is a testament to self-taught development, combining **Kotlin**, **Java**, and modern Android development practices to deliver a robust and intuitive app. Stream4Life is perfect for anyone who loves staying organized while keeping up with their favorite films and series.
+## 2. Problème résolu
+- Difficulté à organiser et suivre les films/séries à regarder.
+- Manque d’options personnalisables dans les applications similaires.
+- Besoin d’une interface réactive et intuitive pour gérer les statuts vus/non vus.
 
-## Features
+## 3. Solution proposée
+**Stream4Life** permet de :
+- Gérer une **liste de visionnage** (ajout, suppression, organisation).
+- Suivre les **statuts vus/non vus** en temps réel.
+- Recevoir des **notifications** pour les nouvelles sorties.
+- Personnaliser l’expérience (mode sombre, langues : français, anglais, espagnol).
+- Offrir une **interface utilisateur** basée sur Material Design.
 
-- **Watchlist Management**: Add, remove, and manage your favorite movies and TV series with ease.
-- **Watched Status Tracking**: Mark items as watched or unwatched, with real-time updates to your watchlist.
-- **Notification Support**: Enable or disable notifications for specific titles to stay updated on releases.
-- **Customizable Settings**: Toggle dark mode, adjust scraping power levels, and select your preferred language (French, English, Spanish).
-- **Responsive UI**: A clean and intuitive interface powered by Android's Material Design, ensuring a smooth user experience.
+## 4. Public cible
+- **Utilisateurs** : Amateurs de films/séries, adolescents et jeunes adultes (15-30 ans).
+- **Contexte** : Utilisation personnelle pour organiser et suivre des contenus multimédias.
+- **Plateforme** : Utilisateurs Android (API 21+).
 
-## Screenshot
+## 5. Fonctionnalités principales
+| Fonctionnalité                | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **Gestion de la liste**       | Ajoutez, supprimez et organisez vos films/séries préférés.                  |
+| **Suivi du statut**           | Marquez les contenus comme vus ou non vus avec mise à jour en temps réel.  |
+| **Notifications**             | Activez/désactivez les alertes pour les sorties ou mises à jour.            |
+| **Personnalisation**          | Mode sombre, choix de langue (français, anglais, espagnol), ajustement du scraping. |
+| **Interface utilisateur**     | Design épuré et intuitif basé sur Material Design.                          |
 
-The home screen of Stream4Life provides a sleek and organized view of your watchlist, as shown below:
+## 6. Pile technologique
+- **Langages** : Kotlin, Java
+- **Frontend** : XML Android, Material Design Components
+- **Backend** : Room Database (stockage local)
+- **Bibliothèques** :
+  - Glide (chargement d’images)
+  - Coroutines et Flow (opérations asynchrones)
+  - View Binding (gestion d’interface)
+  - RecyclerView (affichage dynamique)
+- **Outils** : Android Studio, Git
 
-![Stream4Life Home Screen](1.png)
-
-## About the Developer
-
-Hi, I'm **Clément Thollier**, a 17-year-old self-taught developer and high school student in my final year (1ère CIEL) at Lycée Parc de Vilgénis, France (2024-2025). My journey into web and mobile development began a few years ago with a curiosity about how websites and apps are built. What started as a hobby quickly grew into a passion as I dove into **HTML**, **CSS**, **JavaScript**, **Python**, **PHP**, **Kotlin**, and **Java** through online tutorials and personal projects.
-
-Stream4Life is a solo project that reflects my dedication to learning and building practical solutions. Over time, I've honed my skills in Android development, mastering concepts like View Binding, Room database, Coroutines, and RecyclerView to create this app. This project is not just about code—it's about solving real-world problems and creating something meaningful for users.
-
-## Why Stream4Life?
-
-Stream4Life was born out of my love for movies, series, and technology. As a solo developer, I wanted to create an app that simplifies media tracking while offering a modern and customizable experience. This project has been an incredible learning opportunity, allowing me to tackle challenges like database management, UI design, and asynchronous programming. Whether you're a casual viewer or a dedicated cinephile, Stream4Life is designed to enhance your media experience.
-
-## Tech Stack
-
-- **Languages**: Kotlin
-- **Frontend**: Android XML layouts, Material Design Components
-- **Backend**: Room Database for local storage
-- **Libraries**:
-  - Glide for image loading
-  - Coroutines and Flow for asynchronous operations
-  - View Binding for efficient UI handling
-  - RecyclerView for dynamic watchlist display
-- **Tools**: Android Studio, Git
-
-## Installation
-
-1. **Clone the Repository**:
+## 7. Installation
+1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/your-username/stream4life.git
+   git clone https://github.com/pecorio-dev/stream4life.git
    ```
-2. **Open in Android Studio**:
-   - Import the project into Android Studio.
-   - Ensure you have the Android SDK and Gradle configured.
-3. **Build and Run**:
-   - Sync the project with Gradle.
-   - Run the app on an emulator or physical device (API 21 or higher recommended).
+2. **Ouvrir dans Android Studio** :
+   - Importez le projet.
+   - Configurez le SDK Android et Gradle.
+3. **Compiler et exécuter** :
+   - Synchronisez avec Gradle.
+   - Lancez sur un émulateur ou appareil physique (API 21+).
 
-## Usage
+## 8. Utilisation
+- **Ajouter des titres** : Sections Films/Séries pour enrichir votre liste.
+- **Gérer la liste** : Marquez les titres comme vus, activez les notifications, supprimez des éléments.
+- **Personnaliser** : Ajustez le mode sombre, la langue ou la puissance de scraping dans les Paramètres.
+- **Rester informé** : Activez les notifications pour les nouvelles sorties.
 
-1. **Add to Watchlist**: Navigate to the Movies or Series section and add titles to your watchlist.
-2. **Manage Watchlist**: Use the Watchlist screen to mark items as watched, toggle notifications, or remove titles.
-3. **Customize Settings**: Go to the Settings screen to enable dark mode, adjust scraping power, or change the app language.
-4. **Stay Updated**: Enable notifications to get alerts for new releases or updates.
+## 9. À propos du développeur
+**pecorio**, 17 ans. Autodidacte passionné, j’ai appris **HTML**, **CSS**, **JavaScript**, **Python**, **PHP**, **Kotlin** et **Java** via des tutoriels et projets personnels. **Stream4Life** est un projet solo qui reflète mon amour pour les films, les séries et la technologie.
 
-## Contributing
+## 10. Contribution
+Les retours et contributions sont bienvenus :
+1. Forkez le dépôt.
+2. Créez une branche (`git checkout -b feature/votre-fonctionnalité`).
+3. Validez vos modifications (`git commit -m "Ajout de votre fonctionnalité"`).
+4. Poussez votre branche (`git push origin feature/votre-fonctionnalité`).
+5. Ouvrez une Pull Request avec une description claire.
 
-As a solo project, Stream4Life is a labor of love, but I'm open to feedback and contributions! If you'd like to contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to your branch (`git push origin feature/your-feature`).
-5. Open a Pull Request with a clear description of your changes.
+## 11. Projets futurs
+- Support pour plus de langues.
+- Synchronisation cloud des listes.
+- Intégration de l’API TMDB pour la recherche.
+- Amélioration de l’accessibilité.
 
-Please ensure your code follows the project's coding style and includes appropriate tests.
+## 12. Remerciements
+- À la **communauté open-source** pour les ressources éducatives.
+- Au **Lycée Parc de Vilgénis** pour son environnement stimulant.
+- À **vous** pour découvrir **Stream4Life** !
 
-## Future Plans
+## 13. Contact
+- **GitHub** : [pecorio-dev](https://github.com/pecorio-dev)
+- **Email** : [Ystream2free.pecorio@gmail.com]
 
-- Add support for more languages.
-- Implement cloud syncing for watchlists.
-- Enhance search functionality with TMDB API integration.
-- Improve accessibility features for a broader user base.
-
-## Acknowledgments
-
-- **Open-Source Community**: Thanks to the countless tutorials, forums, and resources that fueled my learning journey.
-- **Lycée Parc de Vilgénis**: For providing an environment that encourages curiosity and growth.
-- **You**: For checking out Stream4Life and supporting a young developer's passion project!
-
-## Contact
-
-Feel free to reach out with feedback, suggestions, or questions:
-- **GitHub**: [pecorio-dev](https://github.com/pecorio-dev)
-- **Email**: [Ystream2free.pecorio@gmail.com]
-
-Give **Stream4Life** a try, and let me know how it enhances your media tracking experience! ⭐
+Essayez **Stream4Life** et partagez votre expérience ! ⭐
